@@ -27,7 +27,7 @@ public class PrimeWorker implements Runnable {
 
         final int answer = numOfPrimes;
 
-        ((TextView) view).post(new Runnable() {
+        view.post(new Runnable() {
             @Override
             public void run() {
                 ((TextView) view).setText(String.valueOf(answer));

@@ -50,7 +50,7 @@ public class CountPrimeActivity extends AppCompatActivity {
 
     private void calculate_ui_thread() {
         EditText editText = findViewById(R.id.edit_text_number_n);
-        int n = Integer.valueOf(editText.getText().toString());
+        int n = Integer.parseInt(editText.getText().toString());
         TextView textView = findViewById(R.id.text_view_answer);
 
         int answer = 0;
@@ -65,7 +65,7 @@ public class CountPrimeActivity extends AppCompatActivity {
     private void calculate() {
 
         EditText editText = findViewById(R.id.edit_text_number_n);
-        int n = Integer.valueOf(editText.getText().toString());
+        int n = Integer.parseInt(editText.getText().toString());
         TextView textView = findViewById(R.id.text_view_answer);
 
         //(new Thread(new PrimeWorker(textView, n))).start();
