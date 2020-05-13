@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ServiceExample2020</string>
+    <string name="background_task_example">Background task example</string>
+    <string name="countdown_service_example">Countdown service example</string>
+    <string name="fast_click_game">Fast click game</string>
+    <string name="enter_number_n">We will calculate the number of primes not greater than given number n. Enter number n:</string>
+    <string name="calculate">Calculate using worker thread</string>
+    <string name="calculate_ui">Calculate using UI thread</string>
+    <string name="button_test_ui_response">Test UI response</string>
+    <string name="enter_countdown">Enter start value for countdown:</string>
+    <string name="start_countdown">Start countdown</string>
+</resources>
